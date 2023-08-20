@@ -7,14 +7,25 @@ public class Cliente{
     private char sexo;
     private int anoNascimento;
     private boolean especial;
+    private String cidade;
 
+    
+    public String getCidade() {
+        return cidade;
+    }
+
+    public void setCidade(String cidade) {
+        this.cidade = cidade;
+    }
 
     public String getNome() {
     return nome;
 }
 
     public void setNome(String nome) {
-    this.nome = nome;
+        if (nome.isBlank())
+        System.out.println("Nome é obrigatorio");
+    this.nome = nome.toUpperCase().trim();
 }
     public String getCpf() {
     return cpf;
@@ -74,5 +85,18 @@ public class Cliente{
     setRenda(renda);
     this.sexo = sexo;
     //this.nome;
+
+    
+
+        
+    
+
+public String getCidade() {
+    return cidade;
 }
+
+public void setCidade(String cidade) {
+    this.cidade = cidade;
+}}
+
 }

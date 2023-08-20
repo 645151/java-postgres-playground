@@ -6,7 +6,7 @@ public class AppClasses {
     public static void main(String[] args) {
         System.out.println("Testando");
         Cliente cliente = new Cliente();
-        cliente.setNome("Antonio");
+        cliente.setNome("   ");
         cliente.setRenda(10000);
         cliente.setSexo('M');
         cliente.setAnoNascimento(1980);
@@ -24,10 +24,15 @@ public class AppClasses {
         //cliente2.setSexo('F');
         cliente2.setNome("Marta");
         cliente2.setAnoNascimento(2000);
-        cliente2.setCpf("12345");
+        cliente2.setCpf("123456799");
         //cliente2.setEspecial('true');
-
-        
+       
+        if (cliente.getCpf().equals (cliente2.getCpf())) {
+            System.out.println("Cliente 1 e Cliente 2 tem o mesmo CPF");
+        } else { System.out.println("CPFs diferentes");
+            
+        }
+             
 
         System.out.println("Nome: " + cliente2.getNome());
         System.out.println("Renda: " + cliente2.getRenda());
@@ -35,9 +40,7 @@ public class AppClasses {
         System.out.println("anoNascimento: " + cliente2.getAnoNascimento());
         System.out.println("Cliente Especial: " + cliente2.isEspecial());
 
-        if (cliente.getCpf().equals(cliente2.getCpf()));
-            System.out.println(" Cliente 1 e Cliente 2 tem o mesmo CPF");
-            else System.out.println("CPFs diferentes");
+        
 
     }
     
