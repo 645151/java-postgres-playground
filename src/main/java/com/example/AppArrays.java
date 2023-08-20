@@ -30,19 +30,26 @@ public class AppArrays {
         System.out.println(Arrays.toString(vetor3));
         System.out.println();
 
-        double matriz[][] = { {10,20,30}, {40,50,60} };
-        matriz[0] = new double[] {1,2};
-        System.out.println(Arrays.toString(matriz [0]));
-        System.out.println(Arrays.toString(matriz [1]));
-        System.out.println();
+       
 
         int vetor4[] = new int[5];
         for (int i = 0; i < vetor4.length; i++) {
             vetor4[i] = 100 * (i+1);
             System.out.println(Arrays.toString(vetor4));
+            System.out.println();
+        }
+
+            //double matriz[][] = { {10,20,30}, {40,50,60} };
+            //matriz[0] = new double[] {1,2};
+           // System.out.println(Arrays.toString(matriz [0]));
+            //System.out.println(Arrays.toString(matriz [1]));
+           // System.out.println();
+
+            
             
         }
 
-    }
+    
     
 }
+
