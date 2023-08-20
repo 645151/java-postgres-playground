@@ -85,18 +85,7 @@ public class Cliente{
     setRenda(renda);
     this.sexo = sexo;
     //this.nome;
-
+ 
     
-
-        
-    
-
-public String getCidade() {
-    return cidade;
-}
-
-public void setCidade(String cidade) {
-    this.cidade = cidade;
-}}
-
+    }
 }
