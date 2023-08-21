@@ -85,7 +85,9 @@ public class Cliente{
     setRenda(renda);
     this.sexo = sexo;
     //this.nome;
- 
     
+    }
+    public String toString () {
+        return "Cliente: " + nome + " Cidade: " + cidade;
     }
 }
