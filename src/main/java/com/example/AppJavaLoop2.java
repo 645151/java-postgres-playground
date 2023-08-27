@@ -4,15 +4,29 @@ import java.util.Scanner;
 
 public class AppJavaLoop2 {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+       // Scanner scan = new Scanner(System.in);
+       // int cont = 0;
+       // System.out.println("Digite a quantidade de ciclos ");
+       // int max = scan.nextInt();
+
+       // while (cont < max){
+           // System.out.println(cont + "Curso Java");
+          //  cont ++;
+
+           // scan.close();
+       // }
+
+       Scanner scan = new Scanner(System.in);
         int cont = 0;
-        System.out.println("Digite a quantidade de ciclos ");
+        System.out.println("Digite o numero de ciclos:");
         int max = scan.nextInt();
 
-        while (cont < max){
-            System.out.println(cont + "Curso Java");
-            cont ++;
-        }
+       while (cont < max){
+        System.out.println(cont + "  JAVANET");
+        cont ++;
+
+        scan.close();
+       }
     }
     
 }
